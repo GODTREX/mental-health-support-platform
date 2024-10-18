@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Mental Health Support</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Include the header -->
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">Mental Health Support</a></h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="counseling.html">Counseling</a></li>
+                <li><a href="group-therapy.html">Group Therapy</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="#" id="login-btn">Login/Signup</a></li>
+            </ul>
+        </nav>
+        <div class="notification-icon" id="notification-btn">
+            <span class="icon">🔔</span>
+            <div class="notification-dropdown" id="notification-dropdown">
+                <p>No new notifications.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="home" class="welcome-section">
+        <h2>Welcome back, [User]!</h2>
+        <div class="quick-links">
+            <button onclick="window.location.href='counseling.html'">Book a Counseling Session</button>
+            <button onclick="window.location.href='group-therapy.html'">Join Group Therapy</button>
+            <button onclick="window.location.href='resources.html'">View Resources</button>
+        </div>
+    </section>
+
+    <!-- Include the footer -->
+    <footer>
+        <p>&copy; 2024 Mental Health Support Platform. All rights reserved.</p>
+        <div>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Contact Us</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
